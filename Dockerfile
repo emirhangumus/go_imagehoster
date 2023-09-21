@@ -1,4 +1,4 @@
-FROM golang:1.19
+FROM golang:1.19-alpine
 
 # Set destination for COPY
 WORKDIR /app
